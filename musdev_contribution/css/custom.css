@@ -107,3 +107,49 @@ ul.footer-list a:hover{
         display: none;
     }
 }
+
+/* meetups.html styling here */
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.notification_section{
+    color: #3E6752;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#notification_text{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.btn-append input{
+    background: #2E5A44;
+    border: 1px solid #2E5A44;
+    color: white;
+}
+
+/* media queries */
+@media only screen and (min-width:311px) and (max-width:350px){
+    .notification_section{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:507px) and (max-width:564px){
+    .notification_section{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:565px) and (max-width:767px){
+    div#notification_text{
+        width: 60%;
+        margin: auto;
+    }
+}
