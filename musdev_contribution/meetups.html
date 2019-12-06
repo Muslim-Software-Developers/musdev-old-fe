@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meetups</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <!-- image slides here -->
+        <div id="carousel_div" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/meetup.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/code_show.png" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/conf_room.png" alt="">
+                </div>
+            </div>
+            <a href="#carousel_div" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carousel_div" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        
+        <div class="row notification_section mt-5">
+            <!-- <div class="col-md-12 mt-5"> -->
+                <div class="col-sm-8 col-md-12" id="notification_text">
+                    <p> Stay notified about upcoming meetups </p>
+                </div>
+                <div class="col-sm-12 col-lg-8 offset-lg-2" id="email_input_field">
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="musdev@example.com" id="user_email">
+                            <div class="input-group-append btn-append">
+                                <input type="submit" class="input-group-text btn" value="GO"> 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrapjs/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+</body>
+</html>
