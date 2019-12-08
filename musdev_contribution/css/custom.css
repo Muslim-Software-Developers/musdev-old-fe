@@ -60,6 +60,7 @@
     color: white;
     text-align: center;
     padding: 50px;
+    margin-top: 50px;
 }
 
 div.icons a {
@@ -97,7 +98,6 @@ ul.footer-list a:hover{
 }
 
 #img-foot{
-    border: 1px solid red; 
     max-width: 100%;
     height: auto;
 }
@@ -109,9 +109,15 @@ ul.footer-list a:hover{
 }
 
 /* meetups.html styling here */
+.carousel-inner{
+    height: 100%;
+}
+
 .carousel-inner img{
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .notification_section{
