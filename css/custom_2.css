@@ -49,7 +49,7 @@
 @media only screen and (min-width:1141px)   {
     ul.navbar-nav li{
         padding: 5px;
-        margin-left: 40px;
+        margin-left: 35px;
     }
 }
 
@@ -409,4 +409,44 @@ ul.footer-list a:hover{
         width: 60%;
         margin: auto;
     }
+}
+
+/* About css here */
+
+.aboutpage-content {
+    align-content: center;
+    margin: 20px;
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    font-size: 20px;   
+}
+
+.aboutpage-content>.about-section {
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.aboutpage-content>.about-section>.abt-header {
+    padding-bottom: 15px;
+    text-align: left;
+    justify-content: flex-start;
+    font-family:  sans-serif, serif, 'Times New Roman', Georgia, Times;
+    font-weight: 700;
+    font-size: 45px;
+    color: #8bc34a;
+}
+
+.aboutpage-content>.about-section>.abt-cntnt {
+    text-align: left;
+    justify-content: flex-start;
+    font-family:  sans-serif, serif, 'Times New Roman', Georgia, Times;
+    font-weight: normal;
+    font-size: 15px;
+    color: #616161;
+}
+
+.aboutpage-content>div>.meetup-img {
+    width: 100%;
 }

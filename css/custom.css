@@ -53,10 +53,9 @@
 @media only screen and (min-width:1141px)   {
     ul.navbar-nav li{
         padding: 5px;
-        margin-left: 40px;
+        margin-left: 10px;
     }
 }
-
 /* header css ends here */
 
 /* footer css starts */
@@ -168,4 +167,65 @@ ul.footer-list a:hover{
         width: 60%;
         margin: auto;
     }
+}
+
+.contact--heading {
+    color: #8ec441;
+    font-weight: 900;
+}
+
+.contact--submit {
+    background: #8ec441;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    width: 30%;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.contact--label {
+    color: #8d8d8d;
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 0px;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+ 
+.form-control:focus + .contact--label,
+.form-control:valid + .contact--label {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+}
+
+.contact--input {
+      border-radius: 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 1px solid #8ec441;
+}
+
+.contact--input:focus {
+      box-shadow: none;
+      border-color: #8ec441;
+}
+
+.contact--textarea {
+    border-radius: 0;
+    border-color: #8ec441;
+}
+
+.contact--textarea:focus {
+    box-shadow: none;
+    border-color: #8ec441;
+}
+
+.textarea--label {
+    color: #8d8d8d;
 }
