@@ -1,7 +1,6 @@
 # Musdev Front End Project
 
 Musdev is an Islamic ICT haven for helping the cause of Islam in the tech world.
-
 ## Installation
 
 ## Usage
