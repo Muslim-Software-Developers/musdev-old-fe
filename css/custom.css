@@ -1,3 +1,7 @@
+/* overriding the bg-light style */
+.bg-light {
+    background-color: #ffffff !important;
+}
 /* custom css for header file */
 #support-btn{
     border-radius: 20px;
@@ -22,6 +26,7 @@
         width: 20%;
         padding: 10px;
     }
+
     #support-btn{
         margin-top: 10px;
     }
@@ -48,10 +53,9 @@
 @media only screen and (min-width:1141px)   {
     ul.navbar-nav li{
         padding: 5px;
-        margin-left: 40px;
+        margin-left: 10px;
     }
 }
-
 /* header css ends here */
 
 /* footer css starts */
@@ -60,7 +64,11 @@
     color: white;
     text-align: center;
     padding: 50px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+}
+
+#footer #img-foot {
+    text-align: left;
 }
 
 div.icons a {
@@ -68,6 +76,7 @@ div.icons a {
     font-size: 25px;
     padding: 5px;
 }
+
 div#in-touch{
     font-size: 1.7em;
     font-weight: bold;
