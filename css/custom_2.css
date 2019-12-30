@@ -446,3 +446,10 @@ ul.footer-list a:hover{
 .aboutpage-content>div>.meetup-img {
     width: 100%;
 }
+
+#abtnotice {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #3c7b5c;
+}
