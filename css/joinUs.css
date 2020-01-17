@@ -1,0 +1,172 @@
+.landingPage {
+    margin :0px;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    color: white;
+}
+.bg-txt {
+    padding :4rem 5%;
+    padding-right: 2px;
+}
+.bgImage {
+    margin-bottom: -2px;
+
+}
+.form {
+    padding :4rem 5%;
+    padding-left: 2px;
+    
+}
+#codingText {
+    font-family: "adobe-clean", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+input#name.form-control, input#email.form-control, input#password.form-control {
+    width: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #8dc43f;
+    border-radius: 25px;
+}
+.signup {
+    margin-bottom: 1rem;
+}
+#Sbutton {
+    width: 25%;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #8dc43f;
+    font-family: "adobe-clean", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-color: #8dc43f;
+    margin-bottom: 1rem;
+}
+p.form-text {
+    font-size: 17px;
+}
+.login {
+    color: white;
+    text-decoration: underline;
+}
+.login:hover {
+    color: white;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mediaOne {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.mediaOne > h5 {
+    font-size: 25px;
+    margin: 0px;
+}
+.media-new {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 570px) {
+    #codingText {
+        font-size: 30px;
+        text-align: center;
+    }
+    footer {
+        margin:50px;
+    }
+    .landingPage, .myimg {
+        height: 37rem;
+    }
+    .bg-txt {
+        padding-top: 2rem;
+        padding-bottom: 0px;
+        padding-right: 1rem;
+    }
+    .form {
+        padding: 0px;
+    }
+    #Sbutton {
+        width: 28%;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width:571px) and (max-width: 767px) {
+    #codingText {
+        font-size: 35px;
+        text-align: center;
+    }
+    footer {
+        margin:50px;
+    }
+    .landingPage, .myimg {
+        height: 35rem;
+    }
+    .bg-txt {
+        padding-top: 2rem;
+        padding-bottom: 0px;
+        padding-right: 1rem;
+    }
+    .form {
+        padding: 0px;
+    }
+    #Sbutton {
+        width: 28%;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    #codingText {
+        font-size: 45px;
+        text-align: center;
+    }
+    footer {
+        margin:50px;
+    }
+    .landingPage, .myimg {
+        height: 40rem;
+    }
+    .bg-txt {
+        padding-top: 2.5rem;
+        padding-bottom: 0px;
+        padding-right: 1rem;
+    }
+    .form {
+        padding: 0px;
+    }
+    #Sbutton {
+        width: 28%;
+        padding-top: 10px;
+    }
+}
