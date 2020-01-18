@@ -1,3 +1,4 @@
+
 /* custom css for header file */
 #support-btn{
     border-radius: 20px;
@@ -411,22 +412,24 @@ ul.footer-list a:hover{
 
 .aboutpage-content {
     align-content: center;
+    /* margin: 20px; */
+    padding-top: 55px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* width: 100%; */
     margin: 20px;
     padding-top: 55px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
     font-size: 20px;   
 }
 
 .aboutpage-content>.about-section {
-    padding-left: 60px;
-    padding-bottom: 50px;
+    /* padding-left: 60px;
+    padding-bottom: 50px; */
 }
 
 .aboutpage-content>.about-section>.abt-header {
     padding-bottom: 15px;
-    text-align: left;
+    /* text-align: left; */
     justify-content: flex-start;
     font-family:  sans-serif, serif, 'Times New Roman', Georgia, Times;
     font-weight: 700;
@@ -435,12 +438,18 @@ ul.footer-list a:hover{
 }
 
 .aboutpage-content>.about-section>.abt-cntnt {
-    text-align: left;
+    /* text-align: left; */
     justify-content: flex-start;
     font-family:  sans-serif, serif, 'Times New Roman', Georgia, Times;
     font-weight: normal;
     font-size: 15px;
     color: #616161;
+}
+
+div>.meetup-img {
+    max-width: 100%;
+    height: auto;
+    /* margin: auto; */
 }
 
 .aboutpage-content>div>.meetup-img {
@@ -452,4 +461,4 @@ ul.footer-list a:hover{
     font-weight: bold;
     text-align: center;
     color: #3c7b5c;
-}
+} 
