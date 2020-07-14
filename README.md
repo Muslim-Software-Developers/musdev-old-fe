@@ -14,5 +14,6 @@ All pull requests should be sent to the staging branch for review.
 Please make sure to update tests as appropriate.
 
 ## [Website link](http://musdev.org/)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
