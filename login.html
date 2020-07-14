@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrapcss/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome5/css/all.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom_2.css">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
@@ -49,33 +49,40 @@
     </div>
 
     <!-- main body section starts here -->
-    <main class="main">
-        <div class="container-fluid">
-            <div class="row">
+    <main class="bgImage">
+        <img src="images/bg2.png" class="myimg" alt="images" id="bgImgPlai" width="100%">
+            <div class="row landingPage">
                 <div class="col-sm-12 col-md-6"><h1 class="header-text">Welcome back</h1></div>
                 <div class=" col-sm-12 col-md-6">
-                    <form class="login-form">
+                    <div class="col-lg-6 form">
                         <div class="form-headerText">
+                            <div class="mediaOne">
                             <h3 class="social-text">Log in with</h3>
                             <div class="socials">
-                                <img src="svgs/github.svg" alt="Github-Logo">
-                                <img class="linkedIn" src="svgs/linkedIn.svg" alt="LinkedIn-Logo">
-                                <img src="svgs/twitter.svg" alt="Twitter-Logo">
+                                <div class="media-new">
+                                    <a class="icon" href="#">
+                                        <img src="images/git.png" alt="facebook" width="25px" height="25px">
+                                    </a>
+                                    
+                                    <a class="icon" href="#">
+                                        <img src="images/link.png" alt="linkedin" width="25px" height="25px">
+                                    </a>
+                                    
+                                    <a class="icon" href="#">
+                                        <img src="images/twitter.png" alt="twitter" width="25px" height="25px">
+                                    </a>     
+                                </div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="form-group">
                             <p class="sign-in-with-email">or sign in with your email</p>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="password" id="password" class="form-control" placeholder="Password">
+                            <button id="Sbutton" type="submit" class="btn btn-primary button">Login</button>
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email">
-                            <small class="form-text errorMessage"><p>Sorry, wrong password</p></small>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Password">
-                            <small class="form-text errorMessage"><p>Sorry, wrong password</p></small>
-                        </div>
-                        <button type="submit" class="btn btn-primary button">Submit</button>
                     </form>
                 </div>
-            </div>
         </div>
     </main>
     <!-- main body section ends here -->
