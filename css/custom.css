@@ -311,6 +311,11 @@ div.icons a {
     font-size: 25px;
     padding: 5px;
 }
+
+div.icons a:hover {
+    text-decoration: none;
+}
+
 div#in-touch{
     font-size: 1.7em;
     font-weight: bold;
