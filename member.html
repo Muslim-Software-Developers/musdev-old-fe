@@ -76,16 +76,16 @@
                                 
                             </div>
                     </div>
-                    <div class="form-group">
+                    <form class="form-group">
                       <label for="" class="signup">
                           Or sign up with your email
                       </label>
-                        <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="Name">
-                      <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="Email">
-                      <input type="password" class="form-control" name="password" id="password" aria-describedby="emailHelpId" placeholder="Password">
-                      <a name="Sign Up" id="Sbutton" class="btn btn-primary" href="#" role="button">Sign Up</a>
+                        <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="Name" minlength="6" required>
+                      <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="Email" required>
+                      <input type="password" class="form-control" name="password" id="password" aria-describedby="emailHelpId" placeholder="Password" minlength="6" required>
+                      <button id="Sbutton" class="btn btn-primary"  role="button" id="button">Sign Up</button>
                       <p id="emailHelpId" class="form-text ">Alread have an account?<a href="#" class="login"> Log in</a></p>
-                    </div>
+                    </form>
                 </div>
             </div>
     

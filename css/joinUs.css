@@ -18,6 +18,7 @@
     padding-left: 2px;
     
 }
+
 #codingText {
     font-family: "adobe-clean", sans-serif;
     font-size: 50px;
@@ -55,6 +56,21 @@ input#name.form-control, input#email.form-control, input#password.form-control {
     border-color: #8dc43f;
     margin-bottom: 1rem;
 }
+
+/*  */
+input#name:focus,
+input#email:focus,
+input#password:focus {
+    border: 2px solid red;
+}
+form > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+form > input[type="password"]:invalid:not(:focus):not(:placeholder-shown) {
+    border: 2px solid red !important;
+    background-color: #ffe7e7;
+  }
+/*  */
+
 p.form-text {
     font-size: 17px;
 }
